@@ -9,8 +9,8 @@ public class Task2 {
         for (int i = 0; i < matrix.length; i++) {
             matrix[i] = random.nextInt(10001);
         }
-        int max = 0;
-        int min = 10000;
+        int max = matrix[0];
+        int min = matrix[0];
         int countMultipleOfTen = 0;
         int sumMultipleOfTen = 0;
         for (int number:
